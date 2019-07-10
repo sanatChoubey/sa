@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+.FormsEdit{
+
+  width:500px;
+  height: 90vh;
+  
+  margin-top:50px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}

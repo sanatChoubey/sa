@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["src/*"],
+      "@config/*": ["src/config/*"],
+      "@components/*": ["src/components/*"],
+      "@redux/*": ["src/redux/*"],
+      "@static/*": ["src/static/*"],
+      "@apollo-client/*": ["src/components/container/Apollo/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
